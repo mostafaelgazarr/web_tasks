@@ -1,0 +1,121 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h5{
+    background-color: gray;
+    padding: 1%;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+    padding: 10px;
+    background: #F1F1F1;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+nav {
+    background: #333;
+    color: #fff;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 70%;
+    padding: 0 10px;
+}
+
+nav ul li {
+    padding: 3px 10px;
+}
+
+nav span.lang {
+    padding: 3px;
+    text-align: end;
+    width: 30%;
+    padding: 3px 10px;
+}
+
+
+main {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+main>* {
+    margin: 5px;
+}
+
+main section {
+    width: 70%;
+    height: 500px;
+    padding: 10px 10px;
+    background: #fff;
+    position: relative;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section span.w-name {
+    font-size: 10px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+section img {
+    width: 100%;
+    background: #ABABAB;
+}
+
+section p:first-of-type {
+    margin-bottom: 10px;
+}
+
+
+main aside {
+    width: 30%;
+    height: 700px;
+    position: absolute;
+    right: 0;
+}
+
+aside>div {
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 20px 10px;
+}
+
+aside div.about h3 {
+    font-size: 12;
+    margin-bottom: 10px;
+}
+
+aside div.about img {
+    width: 100%;
+    height: 75px;
+}
+
+aside div h4 {
+    margin-bottom: 10px;
+}
+
+aside div.p-image img {
+    width: 100%;
+    height: 75px;
+    margin-bottom: 0;
+    display: block;
+}
